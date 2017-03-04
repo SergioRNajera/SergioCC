@@ -1,4 +1,4 @@
-# Covalent QuickStart.
+# Covalent QuickStart
 
 Quickstart App with @covalent packages
 
