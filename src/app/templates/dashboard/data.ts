@@ -1,15 +1,31 @@
 export let single: any = [
   {
-    'name': 'Germany',
-    'value': 8940000,
+    'name': 'Sunday',
+    'value': 323,
   },
   {
-    'name': 'USA',
-    'value': 5000000,
+    'name': 'Monday',
+    'value': 5573,
   },
   {
-    'name': 'France',
-    'value': 7200000,
+    'name': 'Tuesday',
+    'value': 628,
+  },
+  {
+    'name': 'Wednesday',
+    'value': 145,
+  },
+  {
+    'name': 'Thursday',
+    'value': 80,
+  },
+  {
+    'name': 'Friday',
+    'value': 173,
+  },
+  {
+    'name': 'Saturday',
+    'value': 7155,
   },
 ];
 

@@ -40,116 +40,32 @@
   </div>
   <div class="bgc-black inset charts-dark" flex>
     <div layout-gt-xs="row" layout-wrap>
-      <div flex-gt-xs="40">
+      <div flex-gt-xs="80">
         <md-card>
-          <md-card-title>Total Sales</md-card-title>
-          <md-card-subtitle>combined sales for all products</md-card-subtitle>
+          <md-card-title>Steps (insert icon here)</md-card-title>
           <md-divider></md-divider>
-          <div style="height:290px;overflow:hidden;" class="pad-top-sm">
-            <ngx-charts-area-chart-stacked
-              [scheme]="colorScheme"
-              [results]="multi"
-              [gradient]="gradient"
-              [xAxis]="showXAxis"
-              [yAxis]="showYAxis"
-              [legend]="showLegend"
-              [showXAxisLabel]="showXAxisLabel"
-              [showYAxisLabel]="showYAxisLabel"
-              [xAxisLabel]="xAxisLabel"
-              [yAxisLabel]="yAxisLabel">
-            </ngx-charts-area-chart-stacked>
-          </div>
-        </md-card>
-      </div>
-      <div flex-gt-xs="60">
-        <div layout-gt-xs="row">
-          <div flex-gt-xs="100">
-            <ngx-charts-number-card
-              [scheme]="colorSchemeDark"
-              [results]="single">
-            </ngx-charts-number-card>
-          </div>
-        </div>
-        <div layout-gt-xs="row" class="pull-top-xs">
-          <div flex-gt-xs="100">
-            <md-card>
-              <div style="height:224px;overflow:hidden;" class="pad-top push-right">
-                <ngx-charts-bar-horizontal-stacked
-                  [scheme]="colorScheme"
-                  [results]="multi"
-                  [gradient]="gradient"
-                  [xAxis]="showXAxis"
-                  [yAxis]="showYAxis"
-                  [legend]="showLegend"
-                  [showXAxisLabel]="showXAxisLabel"
-                  [showYAxisLabel]="showYAxisLabel"
-                  [xAxisLabel]="xAxisLabel">
-                </ngx-charts-bar-horizontal-stacked>
-              </div>
-            </md-card>
-          </div>
-        </div>
-      </div>
-      <div flex-gt-xs="33">
-        <md-card>
-          <md-card-title>Product Sales</md-card-title>
-          <md-divider></md-divider>
-          <div style="height:250px;" class="pad-top">
-            <ngx-charts-bar-vertical-2d
-              [scheme]="colorScheme"
-              [results]="multi"
-              [gradient]="gradient"
-              [xAxis]="showXAxis"
-              [yAxis]="showYAxis"
-              [legend]="showLegend"
-              [showXAxisLabel]="showXAxisLabel"
-              [showYAxisLabel]="showYAxisLabel"
-              [xAxisLabel]="xAxisLabel"
-              [yAxisLabel]="yAxisLabel">
-            </ngx-charts-bar-vertical-2d>
-          </div>
-        </md-card>
-      </div>
-      <div flex-gt-xs="33">
-        <md-card>
-          <md-card-title>Product Usage</md-card-title>
-          <md-divider></md-divider>
-          <div style="height:250px;" class="pad-top">
-            <ngx-charts-gauge
+          <div style="height:250px;">
+            <ngx-charts-pie-grid
               [scheme]="colorScheme"
               [results]="single"
-              [min]="0"
-              [max]="100"
-              [units]="'usage'"
-              [bigSegments]="10"
-              [smallSegments]="5">
-            </ngx-charts-gauge>
-          </div>
-        </md-card>
-      </div>
-      <div flex-gt-xs="33">
-        <md-card>
-          <md-card-title>Sales Forecast</md-card-title>
-          <md-divider></md-divider>
-          <div style="height:250px;" class="pad-top">
-            <ngx-charts-line-chart
-              [scheme]="colorScheme"
-              [results]="multi"
-              [gradient]="gradient"
-              [xAxis]="showXAxis"
-              [yAxis]="showYAxis"
-              [legend]="showLegend"
-              [showXAxisLabel]="showXAxisLabel"
-              [showYAxisLabel]="showYAxisLabel"
-              [xAxisLabel]="xAxisLabel"
-              [yAxisLabel]="yAxisLabel"
-              [autoScale]="autoScale">
-            </ngx-charts-line-chart>
+              (select)="onSelect($event)">
+            </ngx-charts-pie-grid>
           </div>
         </md-card>
       </div>
     </div>
-  </div>
+    <div flex-gt-xs="80">
+      <md-card>
+        <md-card-title>Current heartrate</md-card-title>
+        <button md-fab color="primary" style="padding-bottom: 10px">
+          69
+        </button>
+        <md-divider></md-divider>
+        <md-card-title>Weekly stats</md-card-title>
+        <p>Some chrats to the right</p>
+      </md-card>
+    </div>
+    </div>
   <a md-fab color="accent" class="md-fab-position-bottom-right" style="bottom:20px;" href="https://github.com/Teradata/covalent-quickstart/tree/develop/src/app/templates" target="_blank">
     <md-icon>code</md-icon>
   </a>

@@ -5,7 +5,7 @@ import { single, multi } from './data';
 @Component({
   selector: 'qs-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss'],
+  styleUrls: ['./dashboard.component.scss','./style.css'],
 })
 export class DashboardTemplateComponent {
   // Chart
