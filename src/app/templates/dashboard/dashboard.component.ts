@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HealthService } from '../../../services';
+
 
 import {steps, sleep} from './data';
 
@@ -11,6 +13,8 @@ export class DashboardTemplateComponent {
   // Chart
   steps: any[];
   sleep: any[];
+
+  users: any;
 
   view: any[] = [700, 400];
 
@@ -34,6 +38,8 @@ export class DashboardTemplateComponent {
 
   // line, area
   autoScale: boolean = true;
+
+
 
   constructor() {
     // Cards
