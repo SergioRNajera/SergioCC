@@ -68,10 +68,10 @@
         </div>
       <div flex-gt-xs="33">
         <md-card>
-          <md-card-title>Sleep tracked this week</md-card-title>
+          <md-card-title>Sleep tracked this week<md-icon id="sleepIcon" class="md-icon-logo" svgIcon="assets:sleep"></md-icon></md-card-title>
           <md-divider></md-divider>
           <div style="height:250px;" class="pad-top">
-            <ngx-charts-bar-vertical-2d
+            <ngx-charts-bar-vertical
               [scheme]="colorScheme"
               [results]="sleep"
               [gradient]="gradient"
@@ -83,7 +83,7 @@
               [xAxisLabel]="xAxisLabel"
               [yAxisLabel]="yAxisLabel"
               (select)="onSelect($event)">
-            </ngx-charts-bar-vertical-2d>
+            </ngx-charts-bar-vertical>
           </div>
         </md-card>
       </div>
