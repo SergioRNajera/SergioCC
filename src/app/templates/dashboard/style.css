@@ -1,0 +1,42 @@
+.mat-primary.mat-fab {
+  height:90%;
+}
+
+#sleepIcon {
+  position: absolute;
+  padding-left: 8px;
+  height: 30px;
+  width: 35px;
+}
+
+.hrButton {
+  height: 6em;
+  width: 6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hrButton.hrLarge {
+  height: 12em;
+  width: 12em;
+  margin-left:35%;
+}
+
+#currentHrText {
+  font-size:100px;
+}
+
+#firstThirdHr {
+  position: relative;
+  margin-left: 5%;
+}
+
+#secondThirdHr {
+  position: relative;
+  margin-left: 25%;
+}
+
+#lastThirdHr {
+  position: relative;
+  margin-left: 25%;
+}

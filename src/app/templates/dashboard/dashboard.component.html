@@ -40,11 +40,12 @@
   </div>
   <div class="bgc-black inset charts-dark" flex>
     <div layout-gt-xs="row" layout-wrap>
-      <div flex-gt-xs="30">
+      <div flex-gt-xs="60">
         <md-card>
           <md-card-title>Steps (insert icon here)</md-card-title>
+          <md-card-subtitle>subtitle maybe?</md-card-subtitle>
           <md-divider></md-divider>
-          <div style="height:250px;">
+          <div style="height:290px;overflow:hidden;" class="pad-top-sm">
             <ngx-charts-pie-grid
               [scheme]="colorScheme"
               [results]="steps"
@@ -53,20 +54,25 @@
           </div>
         </md-card>
       </div>
-    </div>
-    <div flex-gt-xs="50">
-      <div style="height:224px;overflow:hidden;" class="pad-top">
-        <md-card>
-        <md-card-title>Current heartrate</md-card-title>
-        <button md-fab color="primary" style="padding-bottom: 10px">
-          69
-        </button>
-        <md-divider></md-divider>
-        <md-card-title>Weekly stats</md-card-title>
-        <p>Some chrats to the right</p>
-      </md-card>
+      <div flex-gt-xs="40">
+        <div layout-gt-xs="row">
+          <div flex-gt-xs="100">
+            <md-card>
+              <md-card-title>Current heartrate</md-card-title>
+              <md-divider></md-divider>
+              <button md-fab color="primary" class="hrButton hrLarge"><span id="currentHrText">69</span></button>
+              <md-divider></md-divider>
+              <md-card-title>Yesterday's stats</md-card-title>
+              <div layout="row" layout-align="space-around center">
+                <div layout="column"><label>Min</label><button md-fab color="accent" class="hrButton">69</button></div>
+                <div layout="column"><label>Average</label><button md-fab color="orange" class="hrButton">69</button></div>
+                <div layout="column"><label>Max</label><button md-fab color="warn" class="hrButton">69</button></div>
+              </div>
+            </md-card>
+          </div>
         </div>
-      <div flex-gt-xs="33">
+      </div>
+      <div flex-gt-xs="100">
         <md-card>
           <md-card-title>Sleep tracked this week<md-icon id="sleepIcon" class="md-icon-logo" svgIcon="assets:sleep"></md-icon></md-card-title>
           <md-divider></md-divider>
@@ -88,7 +94,7 @@
         </md-card>
       </div>
     </div>
-    </div>
+  </div>
   <a md-fab color="accent" class="md-fab-position-bottom-right" style="bottom:20px;" href="https://github.com/Teradata/covalent-quickstart/tree/develop/src/app/templates" target="_blank">
     <md-icon>code</md-icon>
   </a>
