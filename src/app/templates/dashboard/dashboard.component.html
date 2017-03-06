@@ -47,7 +47,7 @@
           <div style="height:250px;">
             <ngx-charts-pie-grid
               [scheme]="colorScheme"
-              [results]="single"
+              [results]="steps"
               (select)="onSelect($event)">
             </ngx-charts-pie-grid>
           </div>
@@ -68,12 +68,12 @@
         </div>
       <div flex-gt-xs="33">
         <md-card>
-          <md-card-title>Product Sales</md-card-title>
+          <md-card-title>Sleep tracked this week</md-card-title>
           <md-divider></md-divider>
           <div style="height:250px;" class="pad-top">
             <ngx-charts-bar-vertical-2d
               [scheme]="colorScheme"
-              [results]="multi"
+              [results]="sleep"
               [gradient]="gradient"
               [xAxis]="showXAxis"
               [yAxis]="showYAxis"
@@ -81,7 +81,8 @@
               [showXAxisLabel]="showXAxisLabel"
               [showYAxisLabel]="showYAxisLabel"
               [xAxisLabel]="xAxisLabel"
-              [yAxisLabel]="yAxisLabel">
+              [yAxisLabel]="yAxisLabel"
+              (select)="onSelect($event)">
             </ngx-charts-bar-vertical-2d>
           </div>
         </md-card>

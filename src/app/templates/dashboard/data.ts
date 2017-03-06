@@ -1,4 +1,12 @@
-export let single: any = [
+
+var convertSeconds = function(seconds) {
+  const hrDividend = 60;
+  const minDividend = 60;
+
+  return (seconds/minDividend)/hrDividend;
+};
+
+export let steps: any = [
   {
     'name': 'Sunday',
     'value': 323,
@@ -29,38 +37,38 @@ export let single: any = [
   },
 ];
 
-export let multi: any = [
+export let sleep: any = [
   {
-    'name': 'Containers',
-    'series': [
+    "name":"TOKUSENTAI",
+    "series": [
       {
-        'value': 0,
-        'name': '2016-2-23',
+        'name': 'Saturday, 2-23-2016',
+        'value': convertSeconds(0)
       },
       {
-        'value': 16080,
-        'name': '2016-2-24',
+        'name': 'Friday, 2-24-2016',
+        'value': convertSeconds(16080)
       },
       {
-        'value': 30240,
-        'name': '2016-2-25',
+        'name': 'Thursday, 2-25-2016',
+        'value': convertSeconds(30240)
       },
       {
-        'value': 22800,
-        'name': '2016-2-26',
+        'name': 'Wednesday, 2-26-2016',
+        'value': convertSeconds(22800)
       },
       {
-        'value': 16560,
-        'name': '2016-2-27',
+        'name': 'Tuesday, 2-27-2016',
+        'value': convertSeconds(16560)
       },
       {
-        'value': 0,
-        'name': '2016-2-28',
+        'name': 'Monday, 2-28-2016',
+        'value': convertSeconds(0)
       },
       {
-        'value': 0,
-        'name': '2016-3-1',
-      },
-    ],
+        'name': 'Sunday, 3-1-2016',
+        'value': convertSeconds(0)
+      }
+    ]
   },
 ];
