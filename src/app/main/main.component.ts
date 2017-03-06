@@ -14,7 +14,7 @@ export class MainComponent {
       icon: 'mail',
     }, {
       title: 'View all users',
-      route: '/',
+      route: '/users',
       icon: 'people_outline',
     }, {
       title: 'Settings',
