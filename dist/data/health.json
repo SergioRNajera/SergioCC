@@ -1,0 +1,411 @@
+[
+  {
+    "users": [
+      {
+        "accountuuid": "db8abed9-2891-4504-a1fe-d0b3df567244",
+        "summary_data": [
+          {
+            "stepcount": {
+              "date": "02-02-2017",
+              "total_stepcount": 501,
+              "total_calories": 21,
+              "total_distance": 371
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-21-2017",
+              "total_stepcount": 741,
+              "total_calories": 32,
+              "total_distance": 564
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-03-2017",
+              "total_stepcount": 165,
+              "total_calories": 6,
+              "total_distance": 118
+            },
+            "heartrate": {
+              "date": "02-03-2017",
+              "average_heartrate": 75,
+              "minimum_heartrate": 65,
+              "maximum_heartrate": 83
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-04-2017",
+              "total_stepcount": 211,
+              "total_calories": 8,
+              "total_distance": 146
+            },
+            "heartrate": {
+              "date": "02-04-2017",
+              "average_heartrate": 84,
+              "minimum_heartrate": 71,
+              "maximum_heartrate": 100
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-05-2017",
+              "total_stepcount": 146,
+              "total_calories": 5,
+              "total_distance": 100
+            },
+            "heartrate": {
+              "date": "02-05-2017",
+              "average_heartrate": 90,
+              "minimum_heartrate": 74,
+              "maximum_heartrate": 123
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-06-2017",
+              "total_stepcount": 211,
+              "total_calories": 10,
+              "total_distance": 157
+            },
+            "heartrate": {
+              "date": "02-06-2017",
+              "average_heartrate": 67,
+              "minimum_heartrate": 51,
+              "maximum_heartrate": 79
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-07-2017",
+              "total_stepcount": 568,
+              "total_calories": 24,
+              "total_distance": 416
+            },
+            "heartrate": {
+              "date": "02-07-2017",
+              "average_heartrate": 83,
+              "minimum_heartrate": 55,
+              "maximum_heartrate": 147
+            },
+            "sleep": {
+              "awakened_date": "02-07-2017",
+              "sleep_time_in_seconds": 25800
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-08-2017",
+              "total_stepcount": 111,
+              "total_calories": 6,
+              "total_distance": 95
+            },
+            "heartrate": {
+              "date": "02-08-2017",
+              "average_heartrate": 82,
+              "minimum_heartrate": 57,
+              "maximum_heartrate": 119
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-09-2017",
+              "total_stepcount": 124,
+              "total_calories": 5,
+              "total_distance": 92
+            },
+            "heartrate": {
+              "date": "02-09-2017",
+              "average_heartrate": 82,
+              "minimum_heartrate": 66,
+              "maximum_heartrate": 114
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-10-2017",
+              "total_stepcount": 248,
+              "total_calories": 10,
+              "total_distance": 189
+            },
+            "heartrate": {
+              "date": "02-10-2017",
+              "average_heartrate": 70,
+              "minimum_heartrate": 67,
+              "maximum_heartrate": 79
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-11-2017",
+              "total_stepcount": 209,
+              "total_calories": 8,
+              "total_distance": 146
+            },
+            "heartrate": {
+              "date": "02-11-2017",
+              "average_heartrate": 73,
+              "minimum_heartrate": 65,
+              "maximum_heartrate": 85
+            },
+            "sleep": {
+              "awakened_date": "02-11-2017",
+              "sleep_time_in_seconds": 27660
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-12-2017",
+              "total_stepcount": 93,
+              "total_calories": 3,
+              "total_distance": 69
+            },
+            "heartrate": {
+              "date": "02-12-2017",
+              "average_heartrate": 75,
+              "minimum_heartrate": 61,
+              "maximum_heartrate": 99
+            },
+            "sleep": {
+              "awakened_date": "02-12-2017",
+              "sleep_time_in_seconds": 28020
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-13-2017",
+              "total_stepcount": 320,
+              "total_calories": 12,
+              "total_distance": 220
+            },
+            "heartrate": {
+              "date": "02-13-2017",
+              "average_heartrate": 63,
+              "minimum_heartrate": 52,
+              "maximum_heartrate": 73
+            },
+            "sleep": {
+              "awakened_date": "02-13-2017",
+              "sleep_time_in_seconds": 19380
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-14-2017",
+              "total_stepcount": 1682,
+              "total_calories": 67,
+              "total_distance": 1125
+            },
+            "heartrate": {
+              "date": "02-14-2017",
+              "average_heartrate": 74,
+              "minimum_heartrate": 62,
+              "maximum_heartrate": 83
+            },
+            "sleep": {
+              "awakened_date": "02-14-2017",
+              "sleep_time_in_seconds": 27480
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-15-2017",
+              "total_stepcount": 7034,
+              "total_calories": 282,
+              "total_distance": 4770
+            },
+            "heartrate": {
+              "date": "02-15-2017",
+              "average_heartrate": 85,
+              "minimum_heartrate": 57,
+              "maximum_heartrate": 102
+            },
+            "sleep": {
+              "awakened_date": "02-15-2017",
+              "sleep_time_in_seconds": 21120
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-16-2017",
+              "total_stepcount": 2904,
+              "total_calories": 115,
+              "total_distance": 1994
+            },
+            "heartrate": {
+              "date": "02-16-2017",
+              "average_heartrate": 64,
+              "minimum_heartrate": 50,
+              "maximum_heartrate": 94
+            },
+            "sleep": {
+              "awakened_date": "02-16-2017",
+              "sleep_time_in_seconds": 28500
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-17-2017",
+              "total_stepcount": 4142,
+              "total_calories": 194,
+              "total_distance": 3102
+            },
+            "heartrate": {
+              "date": "02-17-2017",
+              "average_heartrate": 59,
+              "minimum_heartrate": 52,
+              "maximum_heartrate": 72
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-18-2017",
+              "total_stepcount": 1788,
+              "total_calories": 80,
+              "total_distance": 1286
+            },
+            "heartrate": {
+              "date": "02-18-2017",
+              "average_heartrate": 75,
+              "minimum_heartrate": 56,
+              "maximum_heartrate": 104
+            },
+            "sleep": {
+              "awakened_date": "02-18-2017",
+              "sleep_time_in_seconds": 26100
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-19-2017",
+              "total_stepcount": 56,
+              "total_calories": 2,
+              "total_distance": 40
+            },
+            "heartrate": {
+              "date": "02-19-2017",
+              "average_heartrate": 75,
+              "minimum_heartrate": 74,
+              "maximum_heartrate": 76
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-23-2017",
+              "total_stepcount": 7155,
+              "total_calories": 306,
+              "total_distance": 5495
+            },
+            "heartrate": {
+              "date": "02-23-2017",
+              "average_heartrate": 68,
+              "minimum_heartrate": 51,
+              "maximum_heartrate": 103
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-24-2017",
+              "total_stepcount": 173,
+              "total_calories": 7,
+              "total_distance": 130
+            },
+            "heartrate": {
+              "date": "02-24-2017",
+              "average_heartrate": 67,
+              "minimum_heartrate": 44,
+              "maximum_heartrate": 100
+            },
+            "sleep": {
+              "awakened_date": "02-24-2017",
+              "sleep_time_in_seconds": 16080
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-25-2017",
+              "total_stepcount": 80,
+              "total_calories": 3,
+              "total_distance": 47
+            },
+            "heartrate": {
+              "date": "02-25-2017",
+              "average_heartrate": 67,
+              "minimum_heartrate": 46,
+              "maximum_heartrate": 85
+            },
+            "sleep": {
+              "awakened_date": "02-25-2017",
+              "sleep_time_in_seconds": 30240
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-26-2017",
+              "total_stepcount": 145,
+              "total_calories": 5,
+              "total_distance": 99
+            },
+            "heartrate": {
+              "date": "02-26-2017",
+              "average_heartrate": 62,
+              "minimum_heartrate": 55,
+              "maximum_heartrate": 73
+            },
+            "sleep": {
+              "awakened_date": "02-26-2017",
+              "sleep_time_in_seconds": 22800
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-27-2017",
+              "total_stepcount": 628,
+              "total_calories": 25,
+              "total_distance": 491
+            },
+            "heartrate": {
+              "date": "02-27-2017",
+              "average_heartrate": 66,
+              "minimum_heartrate": 50,
+              "maximum_heartrate": 99
+            },
+            "sleep": {
+              "awakened_date": "02-27-2017",
+              "sleep_time_in_seconds": 16560
+            }
+          },
+          {
+            "stepcount": {
+              "date": "02-28-2017",
+              "total_stepcount": 5573,
+              "total_calories": 241,
+              "total_distance": 4257
+            },
+            "heartrate": {
+              "date": "02-28-2017",
+              "average_heartrate": 86,
+              "minimum_heartrate": 71,
+              "maximum_heartrate": 100
+            }
+          },
+          {
+            "stepcount": {
+              "date": "03-01-2017",
+              "total_stepcount": 323,
+              "total_calories": 14,
+              "total_distance": 238
+            },
+            "heartrate": {
+              "date": "03-01-2017",
+              "average_heartrate": 75,
+              "minimum_heartrate": 64,
+              "maximum_heartrate": 95
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
