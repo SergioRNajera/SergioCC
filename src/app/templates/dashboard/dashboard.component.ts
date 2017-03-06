@@ -1,16 +1,20 @@
 import { Component } from '@angular/core';
+import { HealthService } from '../../../services';
 
-import { single, multi } from './data';
+
+import {steps, sleep} from './data';
 
 @Component({
   selector: 'qs-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss'],
+  styleUrls: ['./dashboard.component.scss','./style.css'],
 })
 export class DashboardTemplateComponent {
   // Chart
-  single: any[];
-  multi: any[];
+  steps: any[];
+  sleep: any[];
+
+  users: any;
 
   view: any[] = [700, 400];
 
@@ -22,7 +26,7 @@ export class DashboardTemplateComponent {
   showXAxisLabel: boolean = true;
   xAxisLabel: string = '';
   showYAxisLabel: boolean = true;
-  yAxisLabel: string = 'Sales';
+  yAxisLabel: string = 'Hours slept';
 
   colorScheme: any = {
     domain: ['#9575CD', '#4FC3F7', '#4DD0E1', '#4DB6AC', '#66BB6A', '#9CCC65'],
@@ -35,16 +39,12 @@ export class DashboardTemplateComponent {
   // line, area
   autoScale: boolean = true;
 
+
+
   constructor() {
     // Cards
-    Object.assign(this, {single});
+    Object.assign(this, {steps});
     // Chart
-    this.multi = multi.map((group: any) => {
-      group.series = group.series.map((dataItem: any) => {
-        dataItem.name = new Date(dataItem.name);
-        return dataItem;
-      });
-      return group;
-    });
+    Object.assign(this, {sleep});
   }
 }

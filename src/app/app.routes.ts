@@ -21,7 +21,7 @@ import { EditorTemplateComponent } from './templates/editor/editor.component';
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: '', component: MainComponent, children: [{
-      component: DashboardComponent,
+      component: DashboardTemplateComponent,
       path: '',
     },
     {path: 'product', component: DashboardProductComponent, children: [

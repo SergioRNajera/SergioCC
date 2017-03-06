@@ -27,6 +27,10 @@ export class AppComponent {
       this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/listener.svg'));
     this._iconRegistry.addSvgIconInNamespace('assets', 'querygrid',
       this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/querygrid.svg'));
+    this._iconRegistry.addSvgIconInNamespace('assets', 'sleep',
+      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/sleep.svg'));
+      this._iconRegistry.addSvgIconInNamespace('assets', 'reemo',
+      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/reemo.svg'));
   }
 
 }

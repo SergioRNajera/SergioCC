@@ -1,142 +1,69 @@
-export let single: any = [
+
+var convertSeconds = function(seconds) {
+  const hrDividend = 60;
+  const minDividend = 60;
+
+  return (seconds/minDividend)/hrDividend;
+};
+
+export let steps: any = [
   {
-    'name': 'Germany',
-    'value': 8940000,
+    'name': 'Sunday',
+    'value': 323,
   },
   {
-    'name': 'USA',
-    'value': 5000000,
+    'name': 'Monday',
+    'value': 5573,
   },
   {
-    'name': 'France',
-    'value': 7200000,
+    'name': 'Tuesday',
+    'value': 628,
+  },
+  {
+    'name': 'Wednesday',
+    'value': 145,
+  },
+  {
+    'name': 'Thursday',
+    'value': 80,
+  },
+  {
+    'name': 'Friday',
+    'value': 173,
+  },
+  {
+    'name': 'Saturday',
+    'value': 7155,
   },
 ];
 
-export let multi: any = [
-  {
-    'name': 'Containers',
-    'series': [
-      {
-        'value': 2469,
-        'name': '2016-09-15T19:25:07.773Z',
-      },
-      {
-        'value': 3619,
-        'name': '2016-09-17T17:16:53.279Z',
-      },
-      {
-        'value': 3885,
-        'name': '2016-09-15T10:34:32.344Z',
-      },
-      {
-        'value': 4289,
-        'name': '2016-09-19T14:33:45.710Z',
-      },
-      {
-        'value': 3309,
-        'name': '2016-09-12T18:48:58.925Z',
-      },
-    ],
-  },
-  {
-    'name': 'Alerts',
-    'series': [
-      {
-        'value': 2452,
-        'name': '2016-09-15T19:25:07.773Z',
-      },
-      {
-        'value': 4938,
-        'name': '2016-09-17T17:16:53.279Z',
-      },
-      {
-        'value': 4110,
-        'name': '2016-09-15T10:34:32.344Z',
-      },
-      {
-        'value': 3828,
-        'name': '2016-09-19T14:33:45.710Z',
-      },
-      {
-        'value': 5772,
-        'name': '2016-09-12T18:48:58.925Z',
-      },
-    ],
-  },
-  {
-    'name': 'Streams',
-    'series': [
-      {
-        'value': 4022,
-        'name': '2016-09-15T19:25:07.773Z',
-      },
-      {
-        'value': 2345,
-        'name': '2016-09-17T17:16:53.279Z',
-      },
-      {
-        'value': 5148,
-        'name': '2016-09-15T10:34:32.344Z',
-      },
-      {
-        'value': 6868,
-        'name': '2016-09-19T14:33:45.710Z',
-      },
-      {
-        'value': 5415,
-        'name': '2016-09-12T18:48:58.925Z',
-      },
-    ],
-  },
-  {
-    'name': 'Databases',
-    'series': [
-      {
-        'value': 6194,
-        'name': '2016-09-15T19:25:07.773Z',
-      },
-      {
-        'value': 6585,
-        'name': '2016-09-17T17:16:53.279Z',
-      },
-      {
-        'value': 6857,
-        'name': '2016-09-15T10:34:32.344Z',
-      },
-      {
-        'value': 2545,
-        'name': '2016-09-19T14:33:45.710Z',
-      },
-      {
-        'value': 5986,
-        'name': '2016-09-12T18:48:58.925Z',
-      },
-    ],
-  },
-  {
-    'name': 'NoSQL',
-    'series': [
-      {
-        'value': 4260,
-        'name': '2016-09-15T19:25:07.773Z',
-      },
-      {
-        'value': 4810,
-        'name': '2016-09-17T17:16:53.279Z',
-      },
-      {
-        'value': 5087,
-        'name': '2016-09-15T10:34:32.344Z',
-      },
-      {
-        'value': 5941,
-        'name': '2016-09-19T14:33:45.710Z',
-      },
-      {
-        'value': 6427,
-        'name': '2016-09-12T18:48:58.925Z',
-      },
-    ],
-  },
+export let sleep: any = [
+    {
+      'name': 'Saturday, 2/23',
+      'value': convertSeconds(0)
+    },
+    {
+      'name': 'Friday, 2/24',
+      'value': convertSeconds(16080)
+    },
+    {
+      'name': 'Thursday, 2/25',
+      'value': convertSeconds(30240)
+    },
+    {
+      'name': 'Wednesday, 2/26',
+      'value': convertSeconds(22800)
+    },
+    {
+      'name': 'Tuesday, 2/27',
+      'value': convertSeconds(16560)
+    },
+    {
+      'name': 'Monday, 2/28',
+      'value': convertSeconds(0)
+    },
+    {
+      'name': 'Sunday, 3/1',
+      'value': convertSeconds(0)
+    },
 ];
