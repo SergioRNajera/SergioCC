@@ -9,25 +9,25 @@ import { Router } from '@angular/router';
 export class MainComponent {
 
   routes: Object[] = [{
-      title: 'Dashboard',
+      title: 'Messages',
       route: '/',
-      icon: 'dashboard',
+      icon: 'mail',
     }, {
-      title: 'Product Dashboard',
-      route: '/product',
-      icon: 'view_quilt',
+      title: 'View all users',
+      route: '/',
+      icon: 'people_outline',
     }, {
-      title: 'Product Logs',
-      route: '/logs',
-      icon: 'receipt',
+      title: 'Settings',
+      route: '/',
+      icon: 'settings',
     }, {
-      title: 'Manage Users',
-      route: '/users',
-      icon: 'people',
+      title: 'Support',
+      route: '/',
+      icon: 'build',
     }, {
-      title: 'Covalent Templates',
-      route: '/templates',
-      icon: 'view_module',
+      title: 'Sign out',
+      route: '/',
+      icon: 'power_settings_new',
     },
   ];
 

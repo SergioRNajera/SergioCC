@@ -1,38 +1,32 @@
-<td-layout-nav logo="assets:covalent" class="dark-grey-blue">
+<td-layout-nav style="color: blue" logo="assets:reemo" class=white-orange>
   <div td-toolbar-content layout="row" layout-align="start center" flex>
-    <span>Dashboard</span>
+    <span>Sergio Najera's Dashboard</span>
     <span flex ></span>
     <button md-icon-button [mdMenuTriggerFor]="notificationsMenu">
-      <td-notification-count color="accent" [notifications]="4">
+      <td-notification-count color="accent" [notifications]="3">
         <md-icon>apps</md-icon>
       </td-notification-count>
     </button>
     <md-menu #notificationsMenu="mdMenu">
       <td-menu>
-        <div td-menu-header class="md-subhead">REPLACE</div>
+        <div td-menu-header class="md-subhead">For your convenience</div>
         <md-nav-list dense>
           <a md-list-item [routerLink]="['/']">
             <md-icon md-list-avatar>system_update_alt</md-icon>
-            <h4 md-line><span class="text-wrap">Cool things</span></h4>
-            <p md-line>Cool description</p>
+            <h4 md-line><span class="text-wrap">Download data</span></h4>
+            <p md-line>Download all data collected</p>
           </a>
           <md-divider></md-divider>
           <a md-list-item [routerLink]="['/templates/dashboard']">
             <md-icon md-list-avatar>dashboard</md-icon>
-            <h4 md-line><span class="text-wrap">Cool things</span></h4>
-            <p md-line>Cool description</p>
+            <h4 md-line><span class="text-wrap">Switch view</span></h4>
+            <p md-line>Switch between simple/detailed</p>
           </a>
           <md-divider></md-divider>
           <a md-list-item [routerLink]="['/templates/email']">
-            <md-icon md-list-avatar>email</md-icon>
-            <h4 md-line><span class="text-wrap">Cool things</span></h4>
-            <p md-line>Cool description</p>
-          </a>
-          <md-divider></md-divider>
-          <a md-list-item [routerLink]="['/templates/editor']">
-            <md-icon md-list-avatar>view_array</md-icon>
-            <h4 md-line><span class="text-wrap">Cool things</span></h4>
-            <p md-line>Cool description</p>
+            <md-icon md-list-avatar>get_app</md-icon>
+            <h4 md-line><span class="text-wrap">Download the app</span></h4>
+            <p md-line>Available on Android</p>
           </a>
         </md-nav-list>
       </td-menu>
@@ -42,10 +36,10 @@
     <div layout-gt-xs="row" layout-wrap>
       <div flex-gt-xs="60">
         <md-card>
-          <md-card-title>Steps (insert icon here)</md-card-title>
-          <md-card-subtitle>subtitle maybe?</md-card-subtitle>
+          <md-card-title>Steps <i class="material-icons">directions_walk</i></md-card-title>
+          <md-card-subtitle>Data collected from: 2/23 - 3/1</md-card-subtitle>
           <md-divider></md-divider>
-          <div style="height:290px;overflow:hidden;" class="pad-top-sm">
+          <div style="height:360px;overflow:hidden;" class="pad-top-sm">
             <ngx-charts-pie-grid
               [scheme]="colorScheme"
               [results]="steps"
@@ -58,15 +52,16 @@
         <div layout-gt-xs="row">
           <div flex-gt-xs="100">
             <md-card>
-              <md-card-title>Current heartrate</md-card-title>
+              <md-card-title>Current heartrate <i class="material-icons">favorite</i></md-card-title>
+              <md-card-subtitle>Last measured at: 2:52 A.M.</md-card-subtitle>
               <md-divider></md-divider>
-              <button md-fab color="primary" class="hrButton hrLarge"><span id="currentHrText">69</span></button>
+              <button md-fab color="primary" class="hrButton hrLarge"><span id="currentHrText">86</span></button>
               <md-divider></md-divider>
-              <md-card-title>Yesterday's stats</md-card-title>
+              <md-card-title>Yesterday's stats <i class="material-icons">call_missed</i></md-card-title>
               <div layout="row" layout-align="space-around center">
-                <div layout="column"><label>Min</label><button md-fab color="accent" class="hrButton">69</button></div>
-                <div layout="column"><label>Average</label><button md-fab color="orange" class="hrButton">69</button></div>
-                <div layout="column"><label>Max</label><button md-fab color="warn" class="hrButton">69</button></div>
+                <div layout="column"><label style="margin-left: 25px">Min</label><button md-fab style="background-color: green" class="hrButton">71</button></div>
+                <div layout="column"><label style="margin-left: 10px">Average</label><button md-fab color="accent" class="hrButton">86</button></div>
+                <div layout="column"><label style="margin-left: 25px">Max</label><button md-fab color="warn" class="hrButton">100</button></div>
               </div>
             </md-card>
           </div>
@@ -74,7 +69,7 @@
       </div>
       <div flex-gt-xs="100">
         <md-card>
-          <md-card-title>Sleep tracked this week<md-icon id="sleepIcon" class="md-icon-logo" svgIcon="assets:sleep"></md-icon></md-card-title>
+          <md-card-title>Sleep tracked this week <i class="material-icons">local_hotel</i></md-card-title>
           <md-divider></md-divider>
           <div style="height:250px;" class="pad-top">
             <ngx-charts-bar-vertical
@@ -95,7 +90,7 @@
       </div>
     </div>
   </div>
-  <a md-fab color="accent" class="md-fab-position-bottom-right" style="bottom:20px;" href="https://github.com/Teradata/covalent-quickstart/tree/develop/src/app/templates" target="_blank">
-    <md-icon>code</md-icon>
+  <a md-fab color="accent" class="md-fab-position-bottom-right" style="bottom:20px;" href="http://reemohealth.com/contact-us/" target="_blank">
+    <i class="material-icons">help</i>
   </a>
 </td-layout-nav>
